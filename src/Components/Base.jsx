@@ -49,6 +49,15 @@ function Base() {
                     setValues(temp)
                 }
             }
+            let temp = color
+            for(let q = 0;q<=9;q++){
+                if(q >=9-i){
+                    temp[q]= 'green'
+                }else{
+                    temp[q] = 'white'
+                }
+            }
+            setColor(temp)
         }
         setVisualizing(false)
         setSorted(true)
