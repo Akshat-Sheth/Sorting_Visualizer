@@ -1,0 +1,20 @@
+.singlebar{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 100%;
+    background: none;
+    border: none;
+    text-align: center;
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    cursor: pointer;
+}
+
+input:focus-visible {
+    outline: none;
+}

@@ -1,0 +1,22 @@
+.barArea {
+    display: flex;
+    /* border: 2px solid green; */
+    justify-content: space-around;
+    width: 100%;
+    align-items: flex-end;
+    height: 50%;
+}
+
+.bar{
+    border-bottom: 2px solid white;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 1em;
+    padding: 1em;
+    padding-bottom: 0;
+    height: 55%;
+}
+
+

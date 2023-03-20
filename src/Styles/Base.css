@@ -1,0 +1,9 @@
+.buttons{
+    display: flex;
+    gap: 3.5em;
+}
+.heading {
+    color: white;
+    font-size: 3em;
+    margin-top: 1em;
+}
